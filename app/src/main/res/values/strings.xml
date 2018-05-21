@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyImgur</string>
+    <string name="get_album">Get the album</string>
 </resources>
