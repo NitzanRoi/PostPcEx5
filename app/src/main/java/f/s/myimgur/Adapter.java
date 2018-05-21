@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-
 import com.squareup.picasso.Picasso;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
@@ -36,9 +35,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
     }
 
     class MyViewHolder extends RecyclerView.ViewHolder{
-
         ImageView photo;
-
         MyViewHolder(View view) {
             super(view);
             photo = (ImageView) view.findViewById(R.id.iv);
